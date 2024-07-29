@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Proximanova-Black;
+  src: url(/fonts/proximanova-black.otf);
+}
+@font-face {
+  font-family: Proximanova-Medium;
+  src: url(/fonts/proximanova-medium.otf);
+}
+@font-face {
+  font-family: Proximanova-Regular;
+  src: url(/fonts/proximanova-regular.otf);
+}
