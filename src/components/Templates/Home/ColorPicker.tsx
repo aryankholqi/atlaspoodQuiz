@@ -1,4 +1,3 @@
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function ColorPicker({ value, onChange, colors }: any) {
     return (
@@ -6,7 +5,7 @@ export default function ColorPicker({ value, onChange, colors }: any) {
             <p className="font-novaMedium">Color: {value}</p>
             <div className="flex items-center flex-wrap gap-2">
                 {colors.map((color: { title: string, img: string }, index: number) => (
-                    <img key={index} src={color.img} alt="" width={50} className={`${value === color.title ? "border-[1px] p-[2px]" : ""}`} onClick={() => onChange(color.title)} />
+                    <img key={index} src={color.img} alt="" width={50} className={`cursor-pointer ${value === color.title ? "border-[1px] border-black p-[2px]" : ""}`} onClick={() => onChange(color.title)} />
                 ))}
             </div>
         </div>

@@ -1,9 +1,14 @@
 import color1 from "../assets/images/color1.jpg";
+import pic1 from "../assets/images/pic1.jpg";
+import pic2 from "../assets/images/pic2.jpg";
+import pic3 from "../assets/images/pic3.jpg";
+import pic4 from "../assets/images/pic4.jpg";
 
 export const getProductInfo = () => {
   return {
     title: "Linen Sheer Grommet Drapery",
     price: 115000,
+    gallery: [pic1, pic2, pic3, pic4],
     colors: [
       {
         title: "White",
